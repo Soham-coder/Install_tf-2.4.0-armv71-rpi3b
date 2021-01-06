@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-command -v git >/dev/null 2>&1 || {echo >&2 "GIt is not installed.Installing..."; sudo apt install git} 
+command -v git >/dev/null 2>&1 || {echo >&2 "Git is not installed.Installing..."; sudo apt install git} 
 echo "Tensorflow installed version is -->"
 sudo pip3 show tensorflow
 echo "Uninstalling present tensorflow..."

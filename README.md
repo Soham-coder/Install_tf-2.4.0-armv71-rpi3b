@@ -13,5 +13,9 @@ git clone https://github.com/Soham-coder/Install_tf-2.4.0-armv71-rpi3b.git
 cd Install_tf-2.4.0-armv71-rpi3b
 chmod +x install_tf_2_4_0_rpi3b.sh
 ./install_tf_2_4_0_rpi3b.sh
+[Restart the Terminal](needed)
+
+P.S - tf=2.4.0 should get installed in pip3, python3
+
 
 ```

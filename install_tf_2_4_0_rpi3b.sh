@@ -9,7 +9,12 @@ sudo pip3 uninstall protobuf
 sudo pip3 uninstall tensorflow
 sudo pip3 uninstall tensorflow-cpu
 sudo pip3 uninstall tensorflow-gpu
- 
+echo "Uninstalling tensorflow related to python3-pip just for cross check..."
+python3 -m pip uninstall protobuf
+python3 -m pip uninstall tensorflow
+python3 -m pip uninstall tensorflow-cpu
+python3 -m pip uninstall tensorflow-gpu
+
 echo "Checking current os, python and pip versions"
 cat /etc/os-release 
 python3 --version

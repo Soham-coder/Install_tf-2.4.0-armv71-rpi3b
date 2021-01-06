@@ -34,7 +34,7 @@ sudo pip3 install h5py==2.9.0
 sudo pip3 install pybind11
 pip3 install -U --user six wheel mock
 
-echo "Getting getting tensorflow-2.4.0..."
+echo "Getting tensorflow-2.4.0..."
 wget "https://raw.githubusercontent.com/PINTO0309/Tensorflow-bin/master/tensorflow-2.4.0-cp37-none-linux_armv7l_download.sh"
 chmod +x tensorflow-2.4.0-cp37-none-linux_armv7l_download.sh
 ./tensorflow-2.4.0-cp37-none-linux_armv7l_download.sh
